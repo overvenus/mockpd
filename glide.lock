@@ -1,0 +1,38 @@
+hash: a8bbdfd0410d32e447a1cd22fe68d11c2eb9234debb270b0e6b3874a6e43c284
+updated: 2017-03-17T14:49:59.824377438+08:00
+imports:
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+- name: github.com/ngaut/log
+  version: cec23d3e10b016363780d894a0eb732a12c06e02
+- name: github.com/pingcap/kvproto
+  version: 9430cf843f8d4cef93ec3bd9b7dedd06a1695b6a
+  subpackages:
+  - pkg/metapb
+  - pkg/pdpb
+- name: golang.org/x/net
+  version: a6577fac2d73be281a500b310739095313165611
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: 708a7f9f3283aa2d4f6132d287d78683babe55c8
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - stats
+  - tap
+  - transport
+testImports: []

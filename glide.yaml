@@ -1,0 +1,9 @@
+package: github.com/overvenus/mockpd
+import:
+- package: github.com/ngaut/log
+- package: github.com/pingcap/kvproto
+  version: 9430cf843f8d4cef93ec3bd9b7dedd06a1695b6a
+  subpackages:
+  - pkg/pdpb
+- package: google.golang.org/grpc
+  version: ~1.0.5
